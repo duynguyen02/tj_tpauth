@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tj-tpauth"
+version = "1.1.0"
+description = "Python library simplifies the process of authenticating accounts with TP Servers."
+authors = ["Duy Nguyen <duynguyen02.dev@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "tj_tpauth" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+aiohttp = "^3.10.5"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.2"
+pytest-asyncio = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
