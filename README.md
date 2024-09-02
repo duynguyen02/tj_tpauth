@@ -1,4 +1,5 @@
 # tj-tpauth
+![PyPI - Version](https://img.shields.io/pypi/v/tj-tpauth)
 
 `tj-tpauth` is a Python library for managing user authentication through an API. The library supports both synchronous
 and asynchronous methods for login and token-based authentication.
